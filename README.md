@@ -1,4 +1,4 @@
- # LAB - Class 08
+ # LAB - Class 09
 # Project: Ten-Thousand Game
 
 # Author: Jana Almoamani , Rami Ghanem
@@ -10,7 +10,7 @@
     pytest -k version_1
     pytest -k version_2
     pytest -k version_3
-
+    pytest -k version_4
     //after finishing 
     deactivate
 

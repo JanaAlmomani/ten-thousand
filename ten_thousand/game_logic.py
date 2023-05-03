@@ -131,5 +131,6 @@ class GameLogic:
         words with different scores.
         """
         main_score = GameLogic.calculate_score(test_input)
-        scorers = [val for i, val in enumerate(test_input) if GameLogic.calculate_score(test_input[:i] + test_input[i+1:]) != main_score]
+        scorers = [val for i, val in enumerate(test_input) 
+        if GameLogic.calculate_score(test_input[:i] + test_input[i+1:]) != main_score]
         return tuple(scorers)
